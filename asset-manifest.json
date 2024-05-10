@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chord-trainer/static/css/main.c55b2166.css",
+    "main.js": "/chord-trainer/static/js/main.fdb4fc13.js",
+    "static/js/453.b14f9596.chunk.js": "/chord-trainer/static/js/453.b14f9596.chunk.js",
+    "index.html": "/chord-trainer/index.html",
+    "main.c55b2166.css.map": "/chord-trainer/static/css/main.c55b2166.css.map",
+    "main.fdb4fc13.js.map": "/chord-trainer/static/js/main.fdb4fc13.js.map",
+    "453.b14f9596.chunk.js.map": "/chord-trainer/static/js/453.b14f9596.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c55b2166.css",
+    "static/js/main.fdb4fc13.js"
+  ]
+}

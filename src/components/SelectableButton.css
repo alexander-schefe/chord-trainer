@@ -1,0 +1,25 @@
+.selectableButton {
+    width: 100%;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectableButton .sbBackground {
+    width: 95%;
+    height: 95%;
+
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.selectableButton .sbBackground:hover {
+    background-color: coral;
+}
+
+.selectableButton .sbTextHolder {
+    position: absolute;
+    font-weight: 800;
+}

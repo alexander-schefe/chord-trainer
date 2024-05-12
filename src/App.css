@@ -2,24 +2,73 @@
   margin: 0;
   padding: 0;
 
-  --component-distance: 25px;
-  --page-margin: 10vw;
+  --page-margin: 10%;
 }
 
 html {
-  color: white;
-  background-color: #282c34;
+  padding: 0 var(--page-margin);
+}
+
+:root {
+  --calc-temp: calc(var(--page-margin) * 2);
+  width: calc(100% - var(--calc-temp));
 }
 
 .App {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 
   font-size: 20px;
   text-align: center;
 }
 
-.block {
-  width: 100%;
-  margin: var(--component-distance) var(--page-margin) 0;
+.chord {
+  font-family: "Bravura";
+  font-size: 75px;
+  font-weight: 200;
+  padding: 50px 0;
+}
+
+.chord p {
+  display: inline;
+}
+
+.message {
+  font-family: "Bravura";
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.buttonDiv {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttonGeneral {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: 'Bravura';
+  src: url('../public/Bravura.woff2') format('woff2'),
+       url('../public/Bravura.woff') format('woff');
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    padding: 0;
+  }
+	:root {
+    width: 100%;
+  }
 }

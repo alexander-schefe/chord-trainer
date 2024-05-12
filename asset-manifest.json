@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/chord-trainer/static/css/main.3386fcfa.css",
+    "main.css": "/chord-trainer/static/css/main.b1f5ea7b.css",
     "main.js": "/chord-trainer/static/js/main.75cf83a9.js",
     "static/js/453.b14f9596.chunk.js": "/chord-trainer/static/js/453.b14f9596.chunk.js",
     "static/media/Bravura.woff": "/chord-trainer/static/media/Bravura.03de7f3243ff19c33833.woff",
     "static/media/Bravura.woff2": "/chord-trainer/static/media/Bravura.ce6ee6f8de441434baee.woff2",
     "index.html": "/chord-trainer/index.html",
-    "main.3386fcfa.css.map": "/chord-trainer/static/css/main.3386fcfa.css.map",
+    "main.b1f5ea7b.css.map": "/chord-trainer/static/css/main.b1f5ea7b.css.map",
     "main.75cf83a9.js.map": "/chord-trainer/static/js/main.75cf83a9.js.map",
     "453.b14f9596.chunk.js.map": "/chord-trainer/static/js/453.b14f9596.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3386fcfa.css",
+    "static/css/main.b1f5ea7b.css",
     "static/js/main.75cf83a9.js"
   ]
 }

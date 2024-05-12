@@ -1,7 +1,6 @@
 import React from 'react';
 import './Buttons.css';
 import SelectableButton from './SelectableButton';
-import { COLORS } from '../Constants';
 
 function Buttons({selectedArray, setSelectedArray}: any) {
     return (

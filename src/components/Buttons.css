@@ -1,4 +1,9 @@
 .buttonsTable {
     width: 100%;
+    
     border-collapse:collapse;
+}
+
+.buttonsTable td {
+    padding-bottom: 3px;
 }

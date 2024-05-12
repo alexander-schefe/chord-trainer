@@ -25,12 +25,19 @@ html {
 .chord {
   font-family: "Bravura";
   font-size: 75px;
-  font-weight: 200;
+  font-weight: 400;
   padding: 50px 0;
+}
+
+.tableWrapper {
+  --maxSize-half: 400px;
+  max-width: calc(var(--maxSize-half)*2);
+  padding-left: calc(50% - var(--maxSize-half));
 }
 
 .chord p {
   display: inline;
+  user-select: none;
 }
 
 .message {
@@ -55,6 +62,8 @@ html {
   align-items: center;
   justify-content: space-around;
   font-weight: 700;
+
+  user-select: none;
 }
 
 

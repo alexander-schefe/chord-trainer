@@ -21,4 +21,5 @@
 .selectableButton .sbTextHolder {
     position: absolute;
     font-weight: 800;
+    user-select: none;
 }

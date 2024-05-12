@@ -28,10 +28,12 @@ function App() {
         <p className="baseNoteText">{baseNotes[currentBaseNote]}</p>
         <p className="chordText" style={{color: `${COLORS.accent}`}}>{parseSupercript(chords[currentChord][0])}</p>
       </div>
-      <Buttons selectedArray={selectedArray} setSelectedArray={setSelectedArray}/>
-      <div className="buttonDiv">
-        <div className="buttonGeneral" style={{backgroundColor: `${COLORS.accent2}`}} onClick={() => {submitAnswer(currentBaseNote, currentChord, selectedArray, setMessage)}}>{"Check"}</div>
-        <div className="buttonGeneral" style={{backgroundColor: `${COLORS.accent2}`}} onClick={() => {getNextChord(setCurrentBaseNote, setCurrentChord, selectedArray, setSelectedArray, setMessage)}}>{"Next Chord"}</div>
+      <div className="tableWrapper">
+        <Buttons selectedArray={selectedArray} setSelectedArray={setSelectedArray}/>
+        <div className="buttonDiv">
+          <div className="buttonGeneral" style={{backgroundColor: `${COLORS.accent2}`}} onClick={() => {submitAnswer(currentBaseNote, currentChord, selectedArray, setMessage)}}>{"Check"}</div>
+          <div className="buttonGeneral" style={{backgroundColor: `${COLORS.accent2}`}} onClick={() => {getNextChord(setCurrentBaseNote, setCurrentChord, selectedArray, setSelectedArray, setMessage)}}>{"Next Chord"}</div>
+        </div>
       </div>
       <p className="message">{message}</p>
     </div>

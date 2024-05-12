@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/chord-trainer/static/css/main.ef3e78c0.css",
-    "main.js": "/chord-trainer/static/js/main.230b933e.js",
+    "main.css": "/chord-trainer/static/css/main.e363601d.css",
+    "main.js": "/chord-trainer/static/js/main.a18a96c2.js",
     "static/js/453.b14f9596.chunk.js": "/chord-trainer/static/js/453.b14f9596.chunk.js",
     "static/media/Bravura.woff": "/chord-trainer/static/media/Bravura.03de7f3243ff19c33833.woff",
     "static/media/Bravura.woff2": "/chord-trainer/static/media/Bravura.ce6ee6f8de441434baee.woff2",
     "index.html": "/chord-trainer/index.html",
-    "main.ef3e78c0.css.map": "/chord-trainer/static/css/main.ef3e78c0.css.map",
-    "main.230b933e.js.map": "/chord-trainer/static/js/main.230b933e.js.map",
+    "main.e363601d.css.map": "/chord-trainer/static/css/main.e363601d.css.map",
+    "main.a18a96c2.js.map": "/chord-trainer/static/js/main.a18a96c2.js.map",
     "453.b14f9596.chunk.js.map": "/chord-trainer/static/js/453.b14f9596.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef3e78c0.css",
-    "static/js/main.230b933e.js"
+    "static/css/main.e363601d.css",
+    "static/js/main.a18a96c2.js"
   ]
 }

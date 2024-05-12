@@ -5,6 +5,12 @@
   --page-margin: 10%;
 }
 
+@font-face {
+  font-family: 'Bravura';
+  src: url('../public/Bravura.woff2') format('woff2'),
+       url('../public/Bravura.woff') format('woff');
+}
+
 html {
   padding: 0 var(--page-margin);
 }
@@ -64,13 +70,6 @@ html {
   font-weight: 700;
 
   user-select: none;
-}
-
-
-@font-face {
-  font-family: 'Bravura';
-  src: url('../public/Bravura.woff2') format('woff2'),
-       url('../public/Bravura.woff') format('woff');
 }
 
 @media only screen and (max-width: 600px) {
